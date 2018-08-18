@@ -1,0 +1,46 @@
+html,body{
+    height:100%;
+}
+.startup-header{
+    height: 100%;
+}
+header h1{
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
+    color:rgba(255,255,255,0.8);
+    letter-spacing:1.1px;
+    font-weight: 100;
+}
+body{
+    background:url("header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: 30px;
+    border:transparent;
+    padding: 10px 20px;
+    border:1px solid orange;
+}
+
+header hr{
+    width: 100px;
+    background-color: orange;
+    border-width:5px;
+    margin:220px auto 20px auto;
+}
+header .btn-primary:hover{
+    background-color:red;
+    border-width:10px;
+    border-color: red;
+    transition: all 0.2s;    
+}
+.btn-primary:active{
+    border: none;
+}
+.container{
+    position: relative;
+    top:30px;
+}
